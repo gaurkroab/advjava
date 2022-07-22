@@ -36,7 +36,8 @@ public class WishMessageServlet extends HttpServlet {
 		}
 		
 		// add home hyperlink 
-		pw.println("<br><br> <a href='http://localhost:3030/WishApp/page.html'>home</a>");
+		// pw.println("<br><br> <a href='http://localhost:3030/WishApp/page.html'>home</a>");
+		pw.println("<br><br> <a href='page.html'>home</a>");
 		
 		// close Stream
 		pw.close();
